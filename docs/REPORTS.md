@@ -6,3 +6,4 @@
 - 4c191ca | AGENTS.md に営業先関連データの集約先 file_id を追記.
 - 29baad9 | AGENTS.md にタスク開始時のワークフロー (fetch と pull) を追加.
 - dc2c6d2 | README.md を作成. 社内業務ポータルの概要や対象読者、技術スタック (静的サイトや Jamstack)、ディレクトリ構成を記載.
+- 219d7d5 | AGENTS.md に AGENTS.md の更新ルールを追加. 確認後の追記とシークレット値の非記載を明記.
