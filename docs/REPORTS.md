@@ -14,3 +14,4 @@
 - 220675c | `296-murayama/` に murayama-clinic.net のリニューアルサイトを作成. 元サイトのコンテンツを踏襲した単一ページの静的サイト (index.html と styles.css).
 - d00c11d | 元サイトの画像アセット (ロゴ、MCやUC マーク、外観写真、略地図、favicon) を `assets/` に配置してページへ反映.
 - d75a4ee | 296-murayama を DADS (デジタル庁デザインシステム) 準拠にリスタイル. Sea プライマリ、Sumi グレー、Noto Sans JP、下線リンクやピル型ボタンを採用.
+- 58c001e | digital-go-jp/design-system-example-components-html の global.css と button/heading/table コンポーネント CSS を `dads/` に同梱し、マークアップを dads-* クラスへ変更.
