@@ -8,3 +8,4 @@
 - dc2c6d2 | README.md を作成. 社内業務ポータルの概要や対象読者、技術スタック (静的サイトや Jamstack)、ディレクトリ構成を記載.
 - 219d7d5 | AGENTS.md に AGENTS.md の更新ルールを追加. 確認後の追記とシークレット値の非記載を明記.
 - bea9a04 | Google Drive MCP サーバーを OAuth (読み取り専用) で設定し `.devin/mcp_config.local.json` に登録. `.gitignore` にローカル MCP 設定を追加.
+- 7ef7e53 | Drive フォルダの CSV 13 件を "営業リスト" シートへ反映. 会計系を "税理士・会計事務所" に統合し重複解消. 既存 87 行を補完更新、410 行を追加 (計 497 件). 件数集計の式を範囲拡張. OAuth スコープを drive.readonly+spreadsheets へ更新.
