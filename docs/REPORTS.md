@@ -16,3 +16,4 @@
 - d75a4ee | 296-murayama を DADS (デジタル庁デザインシステム) 準拠にリスタイル. Sea プライマリ、Sumi グレー、Noto Sans JP、下線リンクやピル型ボタンを採用.
 - 58c001e | digital-go-jp/design-system-example-components-html の global.css と button/heading/table コンポーネント CSS を `dads/` に同梱し、マークアップを dads-* クラスへ変更.
 - f482eb5 | 296-murayama をスマートフォン向けレスポンシブ対応. 見出し縮小、ボタン全幅化、ナビと診療時間表の横スクロール、余白調整 (720px 以下).
+- 0e1e05a | テーマカラーを logo.gif の背景色 `#E7F8E4` 基調のグリーンに変更. `--color-key-*` をグリーン系で上書きし DADS コンポーネント全体へ適用.
