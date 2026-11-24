@@ -23,3 +23,5 @@
 - 4dc34cb | 296-murayama へも同様の修正を適用 (ヘッダー電話ボタンのスマホ右寄せ).
 - 04dc4f7 | 営業リスト対象サイト 8 件を DADS 準拠で作成 (6-shinbata, 41-ichigaya, 52-toru, 307-hitachinoushiku, 366-ligmorhu, 415-hidamari, 428-louvre, 434-suzuki). 元サイトのコンテンツとアセットを移植. 本家サイト消失の 3 件 (379, 341, 477) はスキップし、J 列ステータスを "サイト消失" に更新. 作成分は "レビュー待ち" に更新.
 - 58267da | 追加で 3 件作成 (62-oyakoyane, 197-mitten, 221-akutsu). J 列を "レビュー待ち" に更新.
+- 4cb7775 | 追加で 3 件作成 (254-ohnishi, 255-mizukami, 282-nakano). J 列を "レビュー待ち" に更新.
+- 0dd00bb | 6-shinbata の医院紹介カードと写真グリッドの間に余白を追加.
