@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ヘアーサロン スズキ</title>
+<meta name="description" content="牛久市栄町・中央公園前のヘアーサロン。朝8時から営業。メンズ・キッズカット、レディースシェービング、フェイシャルエステ。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-tel" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></symbol>
+  <symbol id="leaf" viewBox="0 0 100 100"><path d="M50 4C20 24 10 58 50 96C90 58 80 24 50 4Z"/></symbol>
+</svg>
+
+<div class="demo"><div class="wrap">ご提案用の見本サイト（デモ版）です。写真はイメージ（ぱくたその素材）で、本番ではお店で撮影した写真に差し替えます。お客様の声・ブログも掲載イメージです。</div></div>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="#top"><small>HAIR SALON SUZUKI</small><b>ヘアーサロン スズキ</b></a>
+    <nav class="gnav" aria-label="グローバルナビゲーション">
+      <a href="#strength">当店の強み</a><a href="#menu">メニュー・料金</a><a href="#voice">お客様の声</a><a href="#news">お知らせ</a><a href="#about">店舗情報</a>
+    </nav>
+    <a class="btn solid head-cta" href="tel:0298736663" style="background:var(--deep);border-color:var(--deep);color:var(--bg)"><svg><use href="#i-tel"/></svg><span class="tnum">029-873-6663</span></a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="drawer">メニュー</button>
+  </div>
+  <div class="drawer" id="drawer" hidden>
+    <nav class="wrap" aria-label="スマートフォン用メニュー">
+      <a href="#strength">当店の強み</a><a href="#menu">メニュー・料金</a><a href="#voice">お客様の声</a><a href="#news">お知らせ・ブログ</a><a href="#about">店舗情報・アクセス</a><a href="#reserve">ご予約・お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-label="ヘアーサロン スズキ">
+    <div class="wrap">
+      <div class="hero-text">
+        <div class="place">茨城県牛久市栄町　中央公園前</div>
+        <h1>朝8時から、<br>家族で通える<br>町のヘアーサロン。</h1>
+        <span class="rule" aria-hidden="true"></span>
+        <p class="lead">カットとシェービングはもちろん、女性のお顔そりやブライダル前のお手入れ、フェイシャルエステまで。牛久で長く愛されてきた技術で、毎日の身だしなみを整えます。</p>
+        <div class="ctas">
+          <a class="btn brass telbtn" href="tel:0298736663"><svg><use href="#i-tel"/></svg><span class="tb"><b>029-873-6663</b><small>お電話でご予約</small></span></a>
+          <a class="btn light" href="#menu">メニュー・料金を見る</a>
+        </div>
+        <div class="status" id="status"><span class="pill">営業時間</span><span>8:00〜18:30（定休日：火曜・第2・第3月曜）</span></div>
+      </div>
+      <figure class="hero-photo">
+        <svg class="hero-leaf b" viewBox="0 0 100 100" aria-hidden="true"><use href="#leaf"/></svg>
+        <div class="hero-frame"><img class="hero-img" src="assets/salon.jpg" alt="カットクロスをかけてもらい笑顔のお客様（イメージ）" onerror="this.remove()"></div>
+        <svg class="hero-leaf" viewBox="0 0 100 100" aria-hidden="true"><use href="#leaf"/></svg>
+      </figure>
+    </div>
+  </section>
+
+  <section id="strength">
+    <div class="wrap">
+      <div class="sec-head"><span class="en">STRENGTH</span><h2>ヘアーサロン スズキが選ばれる理由</h2></div>
+      <div class="strengths">
+        <article class="str">
+          <div class="ph"><img src="assets/cut.jpg" alt="ブロッキングしてカットする様子（イメージ）"></div>
+          <span class="num">01</span>
+          <h3>朝8時から営業</h3>
+          <p>お仕事前やお休みの日の朝にも立ち寄れます。パーマ・カラーも18時まで受け付けています。</p>
+        </article>
+        <article class="str">
+          <div class="ph"><img src="assets/scissors.jpg" alt="コームとハサミで前髪を整える手元（イメージ）"></div>
+          <span class="num">02</span>
+          <h3>理容師の確かな技術</h3>
+          <p>小鼻のまわりやまぶたの産毛まで、プロの手で丁寧に。女性のお顔そり、ブライダル前のシェービングも人気です。</p>
+        </article>
+        <article class="str">
+          <div class="ph"><img src="assets/shampoo.jpg" alt="シャンプー台で髪を洗う様子（イメージ）"></div>
+          <span class="num">03</span>
+          <h3>お子さまからご年配の方まで</h3>
+          <p>乳幼児のはじめての散髪から、白髪染め・パーマまで。ご家族みなさまで通っていただけます。</p>
+        </article>
+        <article class="str">
+          <div class="ph"><img src="assets/awa.jpg" alt="手のひらにのせたきめ細かな泡" style="object-fit:contain;background:#fff"></div>
+          <span class="num">04</span>
+          <h3>コラーゲンへのこだわり</h3>
+          <p>カラー・パーマの薬剤やフェイシャルのジェルに、ニッピの「コラーゲンPPT100」を取り入れています。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="alt">
+    <div class="wrap">
+      <div class="sec-head"><span class="en">MENU &amp; PRICE</span><h2>メニュー・料金</h2><p>表示はすべて税込です。髪の長さや状態によって料金が変わる場合は、事前にご説明します。</p></div>
+      <div class="tabs" role="tablist" aria-label="料金表の切り替え">
+        <button id="tab-men" role="tab" aria-selected="true" aria-controls="p-men">メンズ</button>
+        <button id="tab-lady" role="tab" aria-selected="false" aria-controls="p-lady">レディース</button>
+        <button id="tab-kids" role="tab" aria-selected="false" aria-controls="p-kids">キッズ</button>
+      </div>
+      <ul class="price" id="p-men" role="tabpanel" aria-labelledby="tab-men">
+        <li><span class="nm">カット<em>シェービング付き</em></span><span class="fill"></span><b>¥3,900</b></li>
+        <li><span class="nm">カット<em>シェービングなし</em></span><span class="fill"></span><b>¥3,700</b></li>
+        <li><span class="nm">シェービング</span><span class="fill"></span><b>¥2,000</b></li>
+        <li><span class="nm">シェービング＋シャンプー</span><span class="fill"></span><b>¥3,000</b></li>
+        <li><span class="nm">ヘアカラー<em>カット込み</em></span><span class="fill"></span><b>¥7,500〜</b></li>
+        <li><span class="nm">白髪染め<em>カット込み</em></span><span class="fill"></span><b>¥6,900〜</b></li>
+        <li><span class="nm">パーマ<em>カット込み</em></span><span class="fill"></span><b>¥8,500〜</b></li>
+        <li><span class="nm">アイパー<em>カット込み</em></span><span class="fill"></span><b>¥7,500〜</b></li>
+        <li><span class="nm">スキャルプクレンジング</span><span class="fill"></span><b>¥1,500</b></li>
+        <li><span class="nm">メンズムースデコ<em>カットに追加</em></span><span class="fill"></span><b>＋¥2,000</b></li>
+        <li><span class="nm">Wカラー</span><span class="fill"></span><b>＋¥3,000〜</b></li>
+      </ul>
+      <ul class="price" id="p-lady" role="tabpanel" aria-labelledby="tab-lady" hidden>
+        <li><span class="nm">レディースシェービング</span><span class="fill"></span><b>¥4,000</b></li>
+        <li><span class="nm">ブライダルシェービング<em>超音波フェイシャル付き</em></span><span class="fill"></span><b>¥8,000〜</b></li>
+        <li><span class="nm">カット</span><span class="fill"></span><b>¥3,700〜</b></li>
+        <li><span class="nm">カット<em>シェービング付き</em></span><span class="fill"></span><b>¥5,000〜</b></li>
+        <li><span class="nm">ヘアカラー</span><span class="fill"></span><b>¥4,500〜</b></li>
+        <li><span class="nm">白髪染め</span><span class="fill"></span><b>¥4,000〜</b></li>
+        <li><span class="nm">パーマ</span><span class="fill"></span><b>¥4,600〜</b></li>
+        <li><span class="nm">スキャルプクレンジング</span><span class="fill"></span><b>¥1,500〜</b></li>
+        <li><span class="nm">Wカラー</span><span class="fill"></span><b>＋¥3,000〜</b></li>
+        <li><span class="nm">髪の長さによる追加料金</span><span class="fill"></span><b>＋¥500〜¥1,500</b></li>
+      </ul>
+      <ul class="price" id="p-kids" role="tabpanel" aria-labelledby="tab-kids" hidden>
+        <li><span class="nm">中学生カット</span><span class="fill"></span><b>¥3,500</b></li>
+        <li><span class="nm">小学生カット</span><span class="fill"></span><b>¥2,700</b></li>
+        <li><span class="nm">乳幼児カット</span><span class="fill"></span><b>¥3,000</b></li>
+      </ul>
+      <p class="note">※料金は現在のホームページ掲載分を転記しています（デモ用・要確認）。</p>
+
+      <div class="sec-head" style="margin:88px 0 0"><span class="en">ESTHE &amp; CARE</span><h2>エステ・スキンケア</h2></div>
+      <div class="feature-menu">
+        <article class="fm">
+          <div class="ph">FACIAL</div>
+          <div class="body">
+            <span class="tag">FACIAL</span>
+            <h3>超音波フェイシャル</h3>
+            <p>1秒間に約100万回の超音波の振動を使ったフェイシャルトリートメントです。コラーゲン配合のジェルでお肌にうるおいを与え、しっとり仕上げます。</p>
+            <div class="pr">¥3,000　<small>シェービング付き ¥5,500</small></div>
+          </div>
+        </article>
+        <article class="fm">
+          <div class="ph"><img src="assets/awa.jpg" alt="ムースデコのきめ細かな泡"></div>
+          <div class="body">
+            <span class="tag">MOUSSE DECO</span>
+            <h3>ムースデコ</h3>
+            <p>オゾンとマイナスイオンを含ませた、メレンゲのようにきめ細かい泡でお顔を包み、毛穴の汚れを落としながらやさしく洗い上げます。肩・手のコースもございます。</p>
+            <div class="pr">¥3,500　<small>シェービング付き ¥6,500</small></div>
+          </div>
+        </article>
+        <article class="fm">
+          <div class="ph">COLLAGEN</div>
+          <div class="body">
+            <span class="tag">COLLAGEN</span>
+            <h3>ニッピコラーゲン スキンケアクリーム</h3>
+            <p>水・グリセリン・水溶性コラーゲンの3つの成分だけでできた保湿ジェル。防腐剤を使っていないため冷蔵庫で保管します。35g・朝晩の使用で約2か月分。</p>
+            <div class="pr">店頭販売 ¥9,450　<small>（価格は要確認）</small></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="voice">
+    <div class="wrap">
+      <div class="sec-head"><span class="en">VOICE</span><h2>お客様の声</h2></div>
+      <span class="sample">掲載イメージです。本番ではGoogleマップの口コミなど、実際のお声に差し替えます</span>
+      <div class="voices">
+        <article class="voice"><div class="stars" aria-label="5段階中5">★★★★★</div><p>朝8時から開いているので、出勤前にカットと顔そりを済ませられて助かっています。</p><div class="who">掲載例：40代 男性</div></article>
+        <article class="voice"><div class="stars" aria-label="5段階中5">★★★★★</div><p>結婚式の前にブライダルシェービングをお願いしました。お化粧のりが全然違いました。</p><div class="who">掲載例：20代 女性</div></article>
+        <article class="voice"><div class="stars" aria-label="5段階中5">★★★★★</div><p>子どもの初めての散髪でしたが、泣かずに終われました。家族みんなでお世話になっています。</p><div class="who">掲載例：30代 女性</div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="alt">
+    <div class="wrap">
+      <div class="sec-head"><span class="en">NEWS &amp; BLOG</span><h2>お知らせ・ブログ</h2></div>
+      <div class="news">
+        <div>
+          <h3>お知らせ</h3>
+          <ul>
+            <li><time datetime="2026-11-24">2026.11.24</time><div class="t"><span class="cat">休業日</span>年末年始のお休みについて<small>1月1日（金）〜3日（日）、5日（火）はお休みです。</small></div></li>
+            <li><time datetime="2026-11-24">2026.11.24</time><div class="t"><span class="cat">休業日</span>12月のお休み<small>1日・8日・14日・15日・21日・22日です。</small></div></li>
+            <li><time datetime="2026-11-24">2026.11.24</time><div class="t"><span class="cat">お知らせ</span>ホームページをリニューアルしました<small>スマートフォンでも見やすくなりました。</small></div></li>
+          </ul>
+        </div>
+        <div>
+          <h3>ブログ <small style="font-family:var(--f-body);font-size:.75rem;color:var(--muted);font-weight:400">（記事の例）</small></h3>
+          <ul>
+            <li><time>記事例</time><div class="t">ブライダルシェービングは式の何日前がおすすめ？<small>肌を落ち着かせるための目安をご紹介します。</small></div></li>
+            <li><time>記事例</time><div class="t">冬の乾燥対策にコラーゲンジェルの使い方<small>洗顔直後の素肌に使うのがポイントです。</small></div></li>
+            <li><time>記事例</time><div class="t">お子さまの初めての散髪、どう準備する？<small>泣かずに終えるためのちょっとしたコツ。</small></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head"><span class="en">SALON INFO</span><h2>店舗情報</h2></div>
+      <div class="about">
+        <div class="about-photos">
+          <img src="assets/cut.jpg" alt="ブロッキングしてカットする様子（イメージ）">
+          <img src="assets/salon.jpg" alt="店内でくつろぐお客様（イメージ）">
+          <img src="assets/shampoo.jpg" alt="シャンプーの様子（イメージ）">
+        </div>
+        <dl class="info">
+          <dt>店名</dt><dd>ヘアーサロン スズキ</dd>
+          <dt>住所</dt><dd>〒300-1233<br>茨城県牛久市栄町3-32-1（中央公園前）</dd>
+          <dt>電話・FAX</dt><dd class="tnum">029-873-6663</dd>
+          <dt>営業時間</dt><dd>8:00〜18:30<br><small style="color:var(--muted)">パーマ・カラーの受付は18:00まで</small></dd>
+          <dt>定休日</dt><dd>毎週火曜日・第2・第3月曜日</dd>
+          <dt>ご予約</dt><dd>お電話にて承ります</dd>
+        </dl>
+      </div>
+
+      <div class="cal-wrap">
+        <h3>お休みカレンダー</h3>
+        <div class="cals" id="cals"></div>
+        <div class="legend"><span><i></i>お休み</span><span><i class="t"></i>今日</span></div>
+      </div>
+
+      <div class="map-row">
+        <figure class="map">
+          <svg viewBox="0 0 400 360" role="img" aria-label="周辺地図：国道6号とJR常磐線の南、国道408号の西、栄町4丁目交差点の北にある中央公園の前">
+            <rect width="400" height="360" fill="var(--map-bg)"/>
+            <g stroke="var(--road)" stroke-width="12" stroke-linecap="round" fill="none">
+              <path d="M20 160H380"/><path d="M70 212H270"/><path d="M30 252H380"/><path d="M150 252V350"/><path d="M190 212V252"/>
+            </g>
+            <g stroke="var(--road-main)" stroke-width="16" stroke-linecap="round" fill="none"><path d="M20 42H380"/><path d="M280 20V350"/></g>
+            <path d="M20 96H380" stroke="var(--ink)" stroke-width="5"/>
+            <path d="M20 96H380" stroke="var(--map-bg)" stroke-width="3" stroke-dasharray="10 10"/>
+            <rect x="214" y="168" width="52" height="38" rx="6" fill="var(--fresh)" opacity=".75"/>
+            <text x="240" y="191" font-size="11" text-anchor="middle" font-weight="700" style="fill:var(--deep)">中央公園</text>
+            <circle cx="198" cy="222" r="14" fill="var(--off)"/>
+            <use href="#leaf" x="190" y="214" width="16" height="16" fill="#fff"/>
+            <rect x="40" y="176" width="128" height="26" rx="13" fill="var(--off)"/>
+            <text x="104" y="193" font-size="12" text-anchor="middle" font-weight="700" style="fill:#fff">ヘアーサロン スズキ</text>
+            <path d="M168 196L186 214" stroke="var(--off)" stroke-width="2"/>
+            <text x="40" y="32" font-size="12" font-weight="700">国道6号</text>
+            <text x="30" y="86" font-size="12" font-weight="700">JR牛久駅（常磐線）</text>
+            <text x="292" y="330" font-size="12" font-weight="700">国道408号</text>
+            <text x="34" y="274" font-size="11" class="sub">栄町4丁目交差点</text>
+            <circle cx="150" cy="252" r="5" fill="var(--ink)"/>
+            <text x="376" y="274" font-size="11" text-anchor="end" class="sub">ひたち野うしく駅 →</text>
+          </svg>
+          <figcaption>略図です（デモ用）。本番ではGoogleマップを埋め込みます。</figcaption>
+        </figure>
+        <div class="access-text">
+          <h3>アクセス</h3>
+          <ul>
+            <li>栄町・中央公園の前にあります</li>
+            <li>国道6号・JR常磐線の南側、国道408号から西へ入ってすぐ</li>
+            <li>駐車場の有無・台数（要確認）</li>
+          </ul>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=%E3%83%98%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%AD%E3%83%B3%E3%82%B9%E3%82%BA%E3%82%AD%20%E7%89%9B%E4%B9%85%E5%B8%82%E6%A0%84%E7%94%BA3-32-1" target="_blank" rel="noopener"><svg><use href="#i-map"/></svg>Googleマップで開く</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reserve" class="cta">
+    <div class="wrap">
+      <div class="cta-box">
+        <span class="en">RESERVATION</span>
+        <h2>ご予約</h2>
+        <p>ご予約はお電話で承ります。ご希望の日時とメニューをお伝えください。</p>
+        <div class="tel tnum"><small>TEL</small>029-873-6663</div>
+        <p style="font-size:.92rem">受付 8:00〜18:30　定休日 火曜・第2・第3月曜</p>
+        <div class="row">
+          <a class="btn white telbtn" href="tel:0298736663"><svg><use href="#i-tel"/></svg><span class="tb"><b>029-873-6663</b><small>タップで電話をかける</small></span></a>
+          <button class="btn light" id="copy" type="button">番号をコピー</button>
+        </div>
+      </div>
+      <div class="cta-box" id="contact">
+        <span class="en">CONTACT</span>
+        <h2>お問い合わせ・ご相談</h2>
+        <p>ブライダルシェービングの日程や、はじめてのエステ、コラーゲン商品のことなど、お気軽にご相談ください。</p>
+        <ul style="margin:0;padding-left:1.2em;color:#e3eedd">
+          <li>ブライダルは式の日程が決まりしだいご相談ください</li>
+          <li>お電話・FAX（029-873-6663）で承ります</li>
+        </ul>
+        <div class="row"><a class="btn light" href="#about"><svg><use href="#i-map"/></svg>店舗情報・地図を見る</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="#top"><small>HAIR SALON SUZUKI</small><b>ヘアーサロン スズキ</b></a>
+        <p style="margin:12px 0 0">〒300-1233 茨城県牛久市栄町3-32-1<br>TEL・FAX 029-873-6663<br>8:00〜18:30／火曜・第2・第3月曜定休</p>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="#strength">当店の強み</a><a href="#menu">メニュー・料金</a><a href="#voice">お客様の声</a><a href="#news">お知らせ</a><a href="#about">店舗情報</a><a href="#reserve">ご予約</a>
+      </nav>
+    </div>
+    <div class="copy">© Hair Salon Suzuki</div>
+  </div>
+</footer>
+
+<div class="bar">
+  <a class="btn solid telbtn" href="tel:0298736663"><svg><use href="#i-tel"/></svg><span class="tb"><b>029-873-6663</b><small>電話予約</small></span></a>
+  <a class="btn" href="#about"><svg><use href="#i-map"/></svg>地図</a>
+</div>
+
+<script>
+// 現サイトのカレンダーから転記したお休み（2026年10月〜2027年1月）。範囲外は定休日ルールで計算
+const OFF={"2026-10":[6,12,13,19,20,27],"2026-11":[3,9,10,16,17,24],"2026-12":[1,8,14,15,21,22],"2027-01":[1,2,3,5,11,12,18,19,26]};
+const key=(y,m)=>y+"-"+String(m+1).padStart(2,"0");
+const ruleOff=d=>{const w=d.getDay(),n=Math.ceil(d.getDate()/7);return w===2||(w===1&&(n===2||n===3));};
+const isOff=d=>{const k=key(d.getFullYear(),d.getMonth());return OFF[k]?OFF[k].includes(d.getDate()):ruleOff(d);};
+const W="日月火水木金土",now=new Date(),md=d=>(d.getMonth()+1)+"月"+d.getDate()+"日("+W[d.getDay()]+")";
+
+(()=>{const el=document.getElementById("status");
+  if(isOff(now)){const n=new Date(now);do{n.setDate(n.getDate()+1)}while(isOff(n));
+    el.classList.add("closed");el.innerHTML='<span class="pill">本日休み</span><span>'+md(now)+'は定休日です。次の営業日は'+md(n)+'</span>';}
+  else el.innerHTML='<span class="pill">本日営業</span><span>'+md(now)+' 8:00〜18:30</span>';})();
+
+(()=>{const box=document.getElementById("cals");
+  for(let i=0;i<3;i++){const f=new Date(now.getFullYear(),now.getMonth()+i,1),Y=f.getFullYear(),M=f.getMonth(),first=f.getDay(),days=new Date(Y,M+1,0).getDate();
+    let h='<div class="cal"><h4>'+Y+'年'+(M+1)+'月</h4><table><thead><tr>'+[...W].map(c=>"<th>"+c+"</th>").join("")+'</tr></thead><tbody><tr>';
+    for(let b=0;b<first;b++)h+="<td></td>";
+    for(let d=1;d<=days;d++){const dt=new Date(Y,M,d),c=[];if(isOff(dt))c.push("off");if(dt.toDateString()===now.toDateString())c.push("now");
+      h+='<td class="'+c.join(" ")+'"><span>'+d+'</span></td>';if((first+d)%7===0&&d<days)h+="</tr><tr>";}
+    box.insertAdjacentHTML("beforeend",h+"</tr></tbody></table></div>");}})();
+
+const tabs=[["tab-men","p-men"],["tab-lady","p-lady"],["tab-kids","p-kids"]];
+tabs.forEach(([t])=>document.getElementById(t).addEventListener("click",()=>tabs.forEach(([tt,pp])=>{const on=tt===t;document.getElementById(tt).setAttribute("aria-selected",on);document.getElementById(pp).hidden=!on;})));
+
+const mb=document.getElementById("menu-btn"),dr=document.getElementById("drawer");
+mb.addEventListener("click",()=>{const open=dr.hidden;dr.hidden=!open;mb.setAttribute("aria-expanded",open);mb.textContent=open?"閉じる":"メニュー";});
+dr.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{dr.hidden=true;mb.setAttribute("aria-expanded",false);mb.textContent="メニュー";}));
+
+document.getElementById("copy").addEventListener("click",e=>{const b=e.currentTarget;
+  navigator.clipboard.writeText("029-873-6663").then(()=>{b.textContent="コピーしました";setTimeout(()=>b.textContent="番号をコピー",2000);})
+  .catch(()=>{const r=document.createRange();r.selectNodeContents(document.querySelector(".cta-box .tel"));const s=getSelection();s.removeAllRanges();s.addRange(r);});});
+</script>
+</body>
+</html>
