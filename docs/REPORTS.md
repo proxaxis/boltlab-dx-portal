@@ -5,3 +5,4 @@
 - d9c5c7f | AGENTS.md に非テキストファイルの扱いを追加. Google Drive フォルダへの配置と事前確認をルール化.
 - 4c191ca | AGENTS.md に営業先関連データの集約先 file_id を追記.
 - 29baad9 | AGENTS.md にタスク開始時のワークフロー (fetch と pull) を追加.
+- dc2c6d2 | README.md を作成. 社内業務ポータルの概要や対象読者、技術スタック (静的サイトや Jamstack)、ディレクトリ構成を記載.
