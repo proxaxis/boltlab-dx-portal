@@ -52,6 +52,7 @@ body {
   border-radius: calc(16 / 16 * 1rem);
   padding: calc(24 / 16 * 1rem);
 }
+.card.borderless { border: none; }
 .card .dads-heading { margin-bottom: calc(10 / 16 * 1rem); }
 .card p + .dads-heading, .card ul + .dads-heading { margin-top: calc(20 / 16 * 1rem); }
 .card p { margin: calc(8 / 16 * 1rem) 0; }
