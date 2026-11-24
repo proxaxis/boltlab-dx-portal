@@ -1,20 +1,20 @@
 /* ページレイアウト用の補助スタイル. コンポーネントは dads/*.css と global.css を使用 */
 
-/* とおる歯科クリニックのブランドカラー（サイトバナーのグリーン）に合わせてキーカラーを上書き */
+/* テーマカラー: ヒーローバナー (0R4.jpg) の背景の黄緑に合わせてライム系キーカラー */
 :root {
-  --color-key-50: var(--color-primitive-green-50);
-  --color-key-100: var(--color-primitive-green-100);
-  --color-key-200: var(--color-primitive-green-200);
-  --color-key-300: var(--color-primitive-green-300);
-  --color-key-400: var(--color-primitive-green-400);
-  --color-key-500: var(--color-primitive-green-500);
-  --color-key-600: var(--color-primitive-green-600);
-  --color-key-700: var(--color-primitive-green-700);
-  --color-key-800: var(--color-primitive-green-800);
-  --color-key-900: var(--color-primitive-green-900);
-  --color-key-1000: var(--color-primitive-green-1000);
-  --color-key-1100: var(--color-primitive-green-1100);
-  --color-key-1200: var(--color-primitive-green-1200);
+  --color-key-50: var(--color-primitive-lime-50);
+  --color-key-100: var(--color-primitive-lime-100);
+  --color-key-200: var(--color-primitive-lime-200);
+  --color-key-300: var(--color-primitive-lime-300);
+  --color-key-400: var(--color-primitive-lime-400);
+  --color-key-500: var(--color-primitive-lime-500);
+  --color-key-600: var(--color-primitive-lime-600);
+  --color-key-700: var(--color-primitive-lime-700);
+  --color-key-800: var(--color-primitive-lime-800);
+  --color-key-900: var(--color-primitive-lime-900);
+  --color-key-1000: var(--color-primitive-lime-1000);
+  --color-key-1100: var(--color-primitive-lime-1100);
+  --color-key-1200: var(--color-primitive-lime-1200);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }

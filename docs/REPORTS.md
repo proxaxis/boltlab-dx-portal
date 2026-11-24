@@ -29,3 +29,4 @@
 - 259b07f | 41-ichigaya の特徴グリッドの上に余白を追加.
 - 16d89b3 | 41-ichigaya の診療科目カードの高さを行内で統一 (grid stretch).
 - 885d72b | 41-ichigaya の診療時間と料金表のカード枠線を削除 (.card.borderless).
+- d55f5ac | 41-ichigaya の院内紹介カードと写真グリッドの間に余白を追加.
