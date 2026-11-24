@@ -13,3 +13,4 @@
 - 7afe6d7 | シート構成変更 (ヘッダー 1 行目、J 列が結果列) に合わせて再チェックし J 列へ記入. URL 332 件、YES 313 件、NO 19 件.
 - 220675c | `296-murayama/` に murayama-clinic.net のリニューアルサイトを作成. 元サイトのコンテンツを踏襲した単一ページの静的サイト (index.html と styles.css).
 - d00c11d | 元サイトの画像アセット (ロゴ、MCやUC マーク、外観写真、略地図、favicon) を `assets/` に配置してページへ反映.
+- d75a4ee | 296-murayama を DADS (デジタル庁デザインシステム) 準拠にリスタイル. Sea プライマリ、Sumi グレー、Noto Sans JP、下線リンクやピル型ボタンを採用.
