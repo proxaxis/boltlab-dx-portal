@@ -42,6 +42,7 @@ body {
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: calc(20 / 16 * 1rem); align-items: start; }
 .grid-2.features { margin-top: calc(20 / 16 * 1rem); }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(20 / 16 * 1rem); align-items: start; }
+.grid-3.cards { align-items: stretch; }
 @media (max-width: 720px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
 
 /* card (DADS card-example に準拠: 1px solid gray-420, radius 16px) */

@@ -26,3 +26,4 @@
 - 4cb7775 | 追加で 3 件作成 (254-ohnishi, 255-mizukami, 282-nakano). J 列を "レビュー待ち" に更新.
 - 0dd00bb | 6-shinbata の医院紹介カードと写真グリッドの間に余白を追加.
 - c468057 | 6-shinbata の写真グリッドを 4:3 アスペクト比で統一 (object-fit: cover).
+- 259b07f | 41-ichigaya の特徴グリッドの上に余白を追加.
