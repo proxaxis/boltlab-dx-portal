@@ -17,6 +17,10 @@
 - Google スプレッドシートなどの非テキストファイルは Google Drive に入れる. (folder_id=`1vGiwG8TZWfY91O0NxcHaToT0G71f5nUA`)
 - Drive への配置前にユーザーへ確認をとる.
 
+## 営業先関連データ
+
+- 営業先関連のデータは file_id=`1RDkL3Bx2-YIaGo3HpCgHxdCnTiwuO9GyqHeqV8tWq2I` に集約する.
+
 ## タスク完了時のワークフロー
 
 タスクを終えたら以下を実行する.
