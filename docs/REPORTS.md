@@ -1,3 +1,4 @@
 # REPORTS
 
 - f8c12c3 | AGENTS.md を作成. マークダウン記述ルールとタスク完了時のワークフローを定義.
+- 324b344 | AGENTS.md に環境セクションを追加し docker host `tcp://localhost:2375` (DinD) を明記.

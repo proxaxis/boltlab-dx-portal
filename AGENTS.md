@@ -12,6 +12,11 @@
 
 - docker host は `tcp://localhost:2375` を使う. (この環境は Docker コンテナ内であり DinD を使用するため)
 
+## 非テキストファイルの扱い
+
+- Google スプレッドシートなどの非テキストファイルは Google Drive に入れる. (folder_id=`1vGiwG8TZWfY91O0NxcHaToT0G71f5nUA`)
+- Drive への配置前にユーザーへ確認をとる.
+
 ## タスク完了時のワークフロー
 
 タスクを終えたら以下を実行する.
