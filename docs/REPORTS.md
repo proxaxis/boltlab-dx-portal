@@ -17,3 +17,4 @@
 - 58c001e | digital-go-jp/design-system-example-components-html の global.css と button/heading/table コンポーネント CSS を `dads/` に同梱し、マークアップを dads-* クラスへ変更.
 - f482eb5 | 296-murayama をスマートフォン向けレスポンシブ対応. 見出し縮小、ボタン全幅化、ナビと診療時間表の横スクロール、余白調整 (720px 以下).
 - 0e1e05a | テーマカラーを logo.gif の背景色 `#E7F8E4` 基調のグリーンに変更. `--color-key-*` をグリーン系で上書きし DADS コンポーネント全体へ適用.
+- 2d493b2 | `dads/` (DADS 公式サイトの Markdown 版スタイル指南) をリポジトリへ追加し、スタイル指南として参照する旨を `AGENTS.md` に記載.
