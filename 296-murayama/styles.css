@@ -1,5 +1,22 @@
 /* ページレイアウト用の補助スタイル. コンポーネントは dads/*.css と global.css を使用 */
 
+/* テーマカラー: logo.gif の背景色 #E7F8E4 を基調としたグリーン系キーカラー */
+:root {
+  --color-key-50: #E7F8E4;
+  --color-key-100: #d0efc9;
+  --color-key-200: #a9dd9d;
+  --color-key-300: #7fc970;
+  --color-key-400: #4fb343;
+  --color-key-500: #2f9e26;
+  --color-key-600: #1f8f1e;
+  --color-key-700: #147a18;
+  --color-key-800: #0f6b14;
+  --color-key-900: #0c5c10;
+  --color-key-1000: #084c0c;
+  --color-key-1100: #063d08;
+  --color-key-1200: #043006;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -26,7 +43,7 @@ body {
 .header-tel { text-decoration: none; }
 
 /* hero */
-.hero { background: var(--color-primitive-blue-50); padding: calc(72 / 16 * 1rem) 0 calc(64 / 16 * 1rem); }
+.hero { background: var(--color-key-50); padding: calc(72 / 16 * 1rem) 0 calc(64 / 16 * 1rem); }
 .hero-logo { width: 100%; max-width: calc(480 / 16 * 1rem); height: auto; display: block; margin-bottom: calc(28 / 16 * 1rem); }
 .hero-kicker { color: var(--color-key-900); font-weight: bold; font-size: calc(15 / 16 * 1rem); letter-spacing: 0.06em; }
 .hero .dads-heading { margin: calc(12 / 16 * 1rem) 0 calc(4 / 16 * 1rem); }
