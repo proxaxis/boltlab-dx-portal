@@ -40,6 +40,7 @@ body {
 .section .dads-heading__heading { border-bottom: 2px solid var(--color-key-900); padding-bottom: calc(8 / 16 * 1rem); }
 .section .card .dads-heading__heading { border-bottom: none; padding-bottom: 0; }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: calc(20 / 16 * 1rem); align-items: start; }
+.grid-2.features { margin-top: calc(20 / 16 * 1rem); }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(20 / 16 * 1rem); align-items: start; }
 @media (max-width: 720px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
 
