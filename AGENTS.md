@@ -21,6 +21,10 @@
 
 - 営業先関連のデータは file_id=`1RDkL3Bx2-YIaGo3HpCgHxdCnTiwuO9GyqHeqV8tWq2I` に集約する.
 
+## タスク開始時のワークフロー
+
+タスクに取り掛かる前に `git fetch` と `git pull` を実行する.
+
 ## タスク完了時のワークフロー
 
 タスクを終えたら以下を実行する.
