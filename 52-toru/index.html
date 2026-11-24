@@ -15,6 +15,10 @@
   <symbol id="i-tel" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z"/></symbol>
   <symbol id="i-map" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><path d="M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 12-12-1.4-1.4z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 16H5V10h14Z"/></symbol>
+  <symbol id="i-smile" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20ZM8.5 10a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm7 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3ZM12 18a5.5 5.5 0 0 1-4.6-2.5l1.6-1a3.7 3.7 0 0 0 6 0l1.6 1A5.5 5.5 0 0 1 12 18Z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V5l-8-3Zm-1.7 15.3-3.5-3.5 1.4-1.4 2.1 2.1 5.6-5.6 1.4 1.4-7 7Z"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 5h-2v6l5.2 3.1 1-1.7-4.2-2.5Z"/></symbol>
 </svg>
 
 <div class="demo"><div class="wrap">ご提案用の見本サイト（デモ版）です。スタッフ・診療室・お子さまの写真はイメージ（ぱくたその素材）で、本番では医院で撮影した写真に差し替えます。</div></div>
@@ -25,14 +29,21 @@
   <div class="wrap">
     <a class="logo" href="#top"><img src="assets/2138toplogo.png" alt="牛久カスミ とおる歯科クリニック"></a>
     <nav class="gnav" aria-label="グローバルナビゲーション">
-      <a href="#feature">特徴</a><a href="#hours">診療時間</a><a href="#clinic">診療内容</a><a href="#news">お知らせ</a><a href="#access">アクセス</a>
+      <a href="#concept">ごあいさつ</a><a href="#hours">診療時間</a><a href="#clinic">診療内容</a><a href="#gallery">院内紹介</a><a href="#access">アクセス</a>
     </nav>
-    <a class="btn solid head-cta" href="tel:0298756388"><svg><use href="#i-tel"/></svg><span class="tnum">029-875-6388</span></a>
+    <div class="head-info">
+      <a class="head-tel" href="tel:0298756388"><svg><use href="#i-tel"/></svg><span class="ht"><b>029-875-6388</b><small>ご予約・お問い合わせ</small></span></a>
+      <div class="head-meta">
+        <a href="#hours"><svg><use href="#i-clock"/></svg>平日 9:00〜13:00 / 14:30〜18:30　土日 〜16:00</a>
+        <a href="#access"><svg><use href="#i-map"/></svg>牛久市神谷6-1-3 カスミ牛久店内</a>
+      </div>
+    </div>
+    <a class="btn accent head-cta" href="tel:0298756388"><svg><use href="#i-tel"/></svg><span class="tnum">029-875-6388</span></a>
     <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="drawer">メニュー</button>
   </div>
   <div class="drawer" id="drawer" hidden>
     <nav class="wrap" aria-label="スマートフォン用メニュー">
-      <a href="#feature">当院の特徴</a><a href="#hours">診療時間</a><a href="#clinic">診療科目・内容</a><a href="#greeting">院長あいさつ</a><a href="#gallery">院内紹介</a><a href="#news">お知らせ</a><a href="#access">アクセス</a><a href="#reserve">ご予約</a>
+      <a href="#concept">診療への想い</a><a href="#feature">当院の特徴</a><a href="#hours">診療時間</a><a href="#clinic">診療科目・内容</a><a href="#greeting">院長あいさつ</a><a href="#gallery">院内紹介</a><a href="#news">お知らせ</a><a href="#access">アクセス</a><a href="#reserve">ご予約</a>
     </nav>
   </div>
 </header>
@@ -44,11 +55,11 @@
         <div class="place">茨城県牛久市神谷　フードスクエアカスミ牛久店内</div>
         <h1>お買い物のついでに、<br>気軽に通える歯医者さん。</h1>
         <p class="lead">歯科一般・小児歯科・矯正歯科・歯科口腔外科。「安全、清潔、安心。」を合い言葉に、お子さまからご年配の方まで通っていただけます。土日も診療しています。</p>
-        <div class="ctas">
-          <a class="btn solid telbtn" href="tel:0298756388"><svg><use href="#i-tel"/></svg><span class="tb"><b>029-875-6388</b><small>お電話でご予約</small></span></a>
-          <a class="btn light" href="#hours">診療時間を見る</a>
-        </div>
         <div class="status" id="status"><span class="pill">診療時間</span><span>平日 9:00〜13:00 / 14:30〜18:30　土日 9:00〜13:00 / 14:00〜16:00</span></div>
+        <div class="ctas">
+          <a class="btn accent telbtn" href="tel:0298756388"><svg><use href="#i-tel"/></svg><span class="tb"><b>029-875-6388</b><small>お電話でご予約</small></span></a>
+          <a class="btn outline" href="#hours">診療時間を見る</a>
+        </div>
       </div>
       <figure class="hero-photo">
         <div class="hero-frame"><img class="hero-img" src="assets/hero.jpg" alt="笑顔で患者に説明する医師（イメージ）"></div>
@@ -56,37 +67,65 @@
     </div>
   </section>
 
-  <section id="feature">
+  <section class="badges" id="feature" aria-label="当院の特徴">
     <div class="wrap">
-      <div class="sec-head"><span class="en">FEATURES</span><h2>当院の特徴</h2></div>
-      <div class="feats">
-        <article class="feat">
-          <div class="ph"><img src="assets/care.jpg" alt="清潔に管理された歯科ケア用品（イメージ）" loading="lazy"></div>
-          <h3>「安全、清潔、安心」</h3>
-          <p>診療器具は患者様ごとに滅菌し、院内の手指が触れる範囲は頻回に消毒清拭しています。患者様の医療安全を第一に考えています。</p>
-        </article>
-        <article class="feat">
-          <div class="ph"><img src="assets/kids.jpg" alt="歯磨きをする女の子（イメージ）" loading="lazy"></div>
-          <h3>小児歯科にも対応</h3>
-          <p>お子さまの歯の健康を、歯磨き指導や予防から支えます。矯正歯科の無料相談日も設けています。</p>
-        </article>
-        <article class="feat">
-          <div class="ph"><img src="assets/room.jpg" alt="明るい診療室（イメージ・AI生成素材）" loading="lazy"></div>
-          <h3>土日も診療・予約制</h3>
-          <p>平日お忙しい方も、土曜・日曜に受診いただけます。当院は予約制です。急患の方はまずお電話でお問い合わせください。</p>
-        </article>
-        <article class="feat">
-          <div class="ph"><img src="assets/staff.jpg" alt="笑顔の医療スタッフ（イメージ）" loading="lazy"></div>
-          <h3>カスミ牛久店内で便利</h3>
-          <p>フードスクエアカスミ牛久店内にあるので、お買い物のついでに立ち寄れます。車でのご来院にも便利です。</p>
-        </article>
+      <ul class="badge-list">
+        <li><svg><use href="#i-map"/></svg><b>カスミ牛久店内</b><small>お買い物ついでに便利</small></li>
+        <li><svg><use href="#i-cal"/></svg><b>土日も診療</b><small>平日お忙しい方も</small></li>
+        <li><svg><use href="#i-smile"/></svg><b>小児歯科対応</b><small>お子さま連れでも安心</small></li>
+        <li><svg><use href="#i-shield"/></svg><b>徹底した滅菌対策</b><small>患者様ごとに器具を滅菌</small></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="news" class="alt">
+    <div class="wrap">
+      <div class="sec-head"><h2>お知らせ</h2><span class="en">NEWS</span></div>
+      <ul class="news-list">
+        <li><time datetime="2026-12-12">2026.12.12</time><div class="t"><span class="cat">イベント</span>矯正無料相談日（12月12日・土曜 9:00〜13:00）<small>※元サイトの掲載情報です（要確認）。日程はお電話でご確認ください。</small></div></li>
+        <li><time datetime="2027-01-09">2027.01.09</time><div class="t"><span class="cat">イベント</span>矯正無料相談日（2027年1月9日・土曜 9:00〜13:00）<small>※元サイトの掲載情報です（要確認）。日程はお電話でご確認ください。</small></div></li>
+        <li><time>随時</time><div class="t"><span class="cat">お知らせ</span>感染症対策について<small>器具の滅菌・院内の消毒清拭・スタッフの検温を徹底しています。詳しくは<a href="#safety">感染症対策への取り組み</a>をご覧ください。</small></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="concept">
+    <div class="wrap">
+      <div class="sec-head"><h2>診療への想い</h2><span class="en">CONCEPT</span><p>「歯医者は怖い」と感じる方にも、安心して通っていただけるよう心がけています。</p></div>
+      <div class="zig">
+        <figure class="zig-ph"><img src="assets/care.jpg" alt="清潔に管理された歯科ケア用品（イメージ）" loading="lazy"></figure>
+        <div class="zig-tx">
+          <span class="num">01</span>
+          <h3>「安全、清潔、安心。」</h3>
+          <p>クリニックの合い言葉です。診療器具は患者様ごとに滅菌し、院内の手指が触れる範囲は頻回に消毒清拭。患者様の医療安全を第一に考えています。</p>
+        </div>
+      </div>
+      <div class="zig rev">
+        <figure class="zig-ph"><img src="assets/hero.jpg" alt="患者に説明する医師（イメージ）" loading="lazy"></figure>
+        <div class="zig-tx">
+          <span class="num">02</span>
+          <h3>丁寧なご説明を心がけます</h3>
+          <p>不安なこと、分からないことをそのままにしないよう、診療内容や方針をていねいにお伝えします。安心して診療を受けられる、通える歯医者さんでありたいと思っています。</p>
+        </div>
+      </div>
+      <div class="zig" id="safety">
+        <figure class="zig-ph"><img src="assets/room.jpg" alt="明るく清潔な診療室（イメージ・AI生成素材）" loading="lazy"></figure>
+        <div class="zig-tx">
+          <span class="num">03</span>
+          <h3>感染症対策への取り組み</h3>
+          <ul class="ticks">
+            <li><svg><use href="#i-check"/></svg>診療器具の患者様ごとの滅菌と、院内の広範囲な消毒清拭</li>
+            <li><svg><use href="#i-check"/></svg>全スタッフの出勤前検温（37.5℃以上は出勤見合わせ）</li>
+            <li><svg><use href="#i-check"/></svg>受付での検温へのご協力のお願い</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="hours" class="alt">
     <div class="wrap">
-      <div class="sec-head"><span class="en">HOURS</span><h2>診療時間</h2><p>当院は予約制です。休診日：水曜日・祝日（臨時休診はホームページにて前もってお知らせします）。</p></div>
+      <div class="sec-head"><h2>診療時間</h2><span class="en">HOURS</span><p>当院は予約制です。休診日：水曜日・祝日（臨時休診はホームページにて前もってお知らせします）。</p></div>
       <div class="hours-wrap">
         <div class="table-scroll">
           <table class="hours">
@@ -116,7 +155,7 @@
 
   <section id="clinic">
     <div class="wrap">
-      <div class="sec-head"><span class="en">TREATMENT</span><h2>診療科目・診療内容</h2></div>
+      <div class="sec-head"><h2>診療科目・診療内容</h2><span class="en">TREATMENT</span></div>
       <div class="clinics">
         <div class="clin">
           <h3>診療科目</h3>
@@ -145,7 +184,7 @@
 
   <section id="greeting" class="alt">
     <div class="wrap">
-      <div class="sec-head"><span class="en">GREETING</span><h2>院長あいさつ</h2></div>
+      <div class="sec-head"><h2>院長あいさつ</h2><span class="en">GREETING</span></div>
       <div class="greet">
         <figure class="greet-ph"><img src="assets/staff.jpg" alt="患者さんをお迎えするスタッフ（イメージ）" loading="lazy"></figure>
         <div>
@@ -162,7 +201,7 @@
 
   <section id="gallery">
     <div class="wrap">
-      <div class="sec-head"><span class="en">INTERIOR</span><h2>院内紹介</h2><p>写真はイメージです。本番では実際の院内写真に差し替えます。</p></div>
+      <div class="sec-head"><h2>院内紹介</h2><span class="en">INTERIOR</span><p>写真はイメージです。本番では実際の院内写真に差し替えます。</p></div>
       <div class="gallery">
         <figure><img src="assets/room.jpg" alt="窓から光が差し込む明るい診療室（イメージ・AI生成素材）" loading="lazy"><figcaption>診療スペース</figcaption></figure>
         <figure><img src="assets/room2.jpg" alt="観葉植物のある明るい院内スペース（イメージ・AI生成素材）" loading="lazy"><figcaption>院内スペース</figcaption></figure>
@@ -171,34 +210,9 @@
     </div>
   </section>
 
-  <section id="news">
-    <div class="wrap">
-      <div class="sec-head"><span class="en">NEWS</span><h2>お知らせ</h2></div>
-      <div class="news">
-        <div class="news-box">
-          <h3>矯正無料相談日</h3>
-          <ul>
-            <li>12月12日（土）9:00〜13:00</li>
-            <li>2027年 1月9日（土）9:00〜13:00</li>
-          </ul>
-          <p class="note">※元サイトの掲載情報です（要確認）。日程はお電話でご確認ください。</p>
-        </div>
-        <div class="news-box">
-          <h3>感染症対策について</h3>
-          <ul>
-            <li>診療器具の患者様ごとの滅菌に加え、手指の触れる範囲の消毒清拭を頻回に行っています</li>
-            <li>全スタッフは出勤前の検温を徹底し、37.5℃以上の発熱がある場合は出勤を見合わせます</li>
-            <li>ご来院時は受付での検温にご協力ください</li>
-            <li>ご本人やご家族に感染が認められた場合は、ご来院を見合わせ速やかにご連絡ください</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section id="access" class="alt">
     <div class="wrap">
-      <div class="sec-head"><span class="en">ACCESS</span><h2>アクセス</h2></div>
+      <div class="sec-head"><h2>アクセス</h2><span class="en">ACCESS</span></div>
       <div class="access-grid">
         <dl class="info">
           <dt>名称</dt><dd>牛久カスミ とおる歯科クリニック</dd>
@@ -208,7 +222,7 @@
         </dl>
         <div class="map-box">
           <iframe class="gmap" title="牛久カスミ とおる歯科クリニックの地図" src="https://www.google.com/maps?q=%E8%8C%A8%E5%9F%8E%E7%9C%8C%E7%89%9B%E4%B9%85%E5%B8%82%E7%A5%9E%E8%B0%B76-1-3&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <a class="btn light" href="https://www.google.com/maps/search/?api=1&query=%E8%8C%A8%E5%9F%8E%E7%9C%8C%E7%89%9B%E4%B9%85%E5%B8%82%E7%A5%9E%E8%B0%B76-1-3+%E3%83%95%E3%83%BC%E3%83%89%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%E3%82%AB%E3%82%B9%E3%83%9F%E7%89%9B%E4%B9%85%E5%BA%97" target="_blank" rel="noopener"><svg><use href="#i-map"/></svg>Googleマップで開く</a>
+          <a class="btn outline" href="https://www.google.com/maps/search/?api=1&query=%E8%8C%A8%E5%9F%8E%E7%9C%8C%E7%89%9B%E4%B9%85%E5%B8%82%E7%A5%9E%E8%B0%B76-1-3+%E3%83%95%E3%83%BC%E3%83%89%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%E3%82%AB%E3%82%B9%E3%83%9F%E7%89%9B%E4%B9%85%E5%BA%97" target="_blank" rel="noopener"><svg><use href="#i-map"/></svg>Googleマップで開く</a>
         </div>
       </div>
     </div>
@@ -223,8 +237,8 @@
         <div class="tel tnum"><small>TEL</small>029-875-6388</div>
         <p class="hours-line">受付時間　平日 9:00〜13:00 / 14:30〜18:30　土日 9:00〜13:00 / 14:00〜16:00<br>休診　水曜日・祝日</p>
         <div class="cta-btns">
-          <a class="btn white telbtn" href="tel:0298756388"><svg><use href="#i-tel"/></svg><span class="tb"><b>029-875-6388</b><small>タップで電話をかける</small></span></a>
-          <a class="btn light" href="#access"><svg><use href="#i-map"/></svg>アクセスを見る</a>
+          <a class="btn accent telbtn" href="tel:0298756388"><svg><use href="#i-tel"/></svg><span class="tb"><b>029-875-6388</b><small>タップで電話をかける</small></span></a>
+          <a class="btn outline" href="#access"><svg><use href="#i-map"/></svg>アクセスを見る</a>
         </div>
       </div>
     </div>
@@ -239,7 +253,7 @@
         <p>〒300-1216 茨城県牛久市神谷6-1-3 フードスクエアカスミ牛久店内<br>TEL 029-875-6388<br>休診：水曜日・祝日</p>
       </div>
       <nav aria-label="フッターナビゲーション">
-        <a href="#feature">当院の特徴</a><a href="#hours">診療時間</a><a href="#clinic">診療科目・内容</a><a href="#news">お知らせ</a><a href="#access">アクセス</a><a href="#reserve">ご予約</a>
+        <a href="#concept">診療への想い</a><a href="#hours">診療時間</a><a href="#clinic">診療科目・内容</a><a href="#news">お知らせ</a><a href="#access">アクセス</a><a href="#reserve">ご予約</a>
       </nav>
     </div>
     <div class="copy">© 牛久カスミ とおる歯科クリニック</div>
@@ -247,8 +261,8 @@
 </footer>
 
 <div class="bar">
-  <a class="btn solid telbtn" href="tel:0298756388"><svg><use href="#i-tel"/></svg><span class="tb"><b>029-875-6388</b><small>電話予約</small></span></a>
-  <a class="btn" href="#access"><svg><use href="#i-map"/></svg>地図</a>
+  <a class="btn accent telbtn" href="tel:0298756388"><svg><use href="#i-tel"/></svg><span class="tb"><b>029-875-6388</b><small>電話予約</small></span></a>
+  <a class="btn outline bar-map" href="#access"><svg><use href="#i-map"/></svg>地図</a>
 </div>
 
 <script>
