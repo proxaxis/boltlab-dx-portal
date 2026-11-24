@@ -101,6 +101,7 @@ body {
   .container { padding: 0 calc(16 / 16 * 1rem); }
   .header-inner { gap: calc(12 / 16 * 1rem); padding: calc(12 / 16 * 1rem) calc(16 / 16 * 1rem); }
   .brand-sub { display: none; }
+  .header-tel { margin-left: auto; }
   .nav { order: 3; width: 100%; margin-left: 0; gap: calc(16 / 16 * 1rem); overflow-x: auto; }
   .nav a { white-space: nowrap; }
   .hero { padding: calc(48 / 16 * 1rem) 0; }
