@@ -1,0 +1,105 @@
+:root {
+  --primary: #0e7c6b;
+  --primary-dark: #0a5f53;
+  --accent: #e8f4f1;
+  --text: #243133;
+  --muted: #5f6f72;
+  --bg: #ffffff;
+  --bg-alt: #f6f9f8;
+  --border: #dde7e5;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.8;
+}
+
+a { color: var(--primary); }
+a:hover { color: var(--primary-dark); }
+
+.container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+/* header */
+.site-header {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(255,255,255,.95);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(6px);
+}
+.header-inner { display: flex; align-items: center; gap: 24px; padding: 12px 20px; flex-wrap: wrap; }
+.brand { text-decoration: none; color: var(--text); line-height: 1.3; }
+.brand-name { display: block; font-size: 1.15rem; font-weight: 700; }
+.brand-sub { display: block; font-size: .72rem; color: var(--muted); letter-spacing: .04em; }
+.nav { display: flex; gap: 18px; margin-left: auto; flex-wrap: wrap; }
+.nav a { text-decoration: none; color: var(--text); font-size: .92rem; }
+.nav a:hover { color: var(--primary); }
+.tel {
+  font-weight: 700; text-decoration: none; color: #fff;
+  background: var(--primary); padding: 8px 16px; border-radius: 999px; font-size: .95rem;
+}
+.tel:hover { background: var(--primary-dark); color: #fff; }
+
+/* hero */
+.hero { background: linear-gradient(160deg, var(--accent), #ffffff 70%); padding: 88px 0 72px; }
+.hero-kicker { color: var(--primary); font-weight: 700; font-size: .9rem; letter-spacing: .08em; }
+.hero h1 { font-size: 2.4rem; margin: 12px 0 4px; letter-spacing: .02em; }
+.hero-lead { font-size: 1.15rem; color: var(--primary-dark); font-weight: 600; }
+.hero-text { margin-top: 18px; color: var(--muted); }
+.hero-actions { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; }
+
+/* buttons */
+.btn {
+  display: inline-block; padding: 10px 22px; border-radius: 8px;
+  border: 1px solid var(--primary); text-decoration: none; color: var(--primary); font-weight: 600;
+}
+.btn.primary { background: var(--primary); color: #fff; }
+.btn:hover { background: var(--primary-dark); border-color: var(--primary-dark); color: #fff; }
+
+/* sections */
+.section { padding: 56px 0; }
+.section.alt { background: var(--bg-alt); }
+.section h2 {
+  font-size: 1.5rem; margin-bottom: 24px; padding-left: 14px;
+  border-left: 4px solid var(--primary);
+}
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 720px) { .grid-2 { grid-template-columns: 1fr; } }
+
+.card {
+  background: #fff; border: 1px solid var(--border); border-radius: 12px;
+  padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+.card h3 { font-size: 1.05rem; margin: 0 0 10px; color: var(--primary-dark); }
+.card h3 + h3, .card p + h3, .card ul + h3 { margin-top: 20px; }
+.card p { margin: 8px 0; }
+.list { margin: 8px 0 8px 1.2em; }
+.list li { margin: 4px 0; }
+.muted { color: var(--muted); font-size: .92rem; }
+.notes { margin: 14px 0 0 1.2em; color: var(--muted); font-size: .92rem; }
+
+/* schedule table */
+.hours { width: 100%; border-collapse: collapse; text-align: center; }
+.hours th, .hours td { border: 1px solid var(--border); padding: 10px 8px; }
+.hours thead th { background: var(--accent); font-weight: 700; }
+.hours td:first-child { text-align: left; font-weight: 600; }
+
+/* access */
+.access { margin-bottom: 18px; }
+.access div { display: flex; gap: 16px; padding: 8px 0; border-bottom: 1px dashed var(--border); }
+.access div:last-child { border-bottom: none; }
+.access dt { min-width: 72px; font-weight: 700; color: var(--primary-dark); }
+.access dd { margin: 0; }
+
+/* footer */
+.site-footer { border-top: 1px solid var(--border); padding: 28px 0; font-size: .9rem; }
+
+@media (max-width: 720px) {
+  .header-inner { gap: 12px; }
+  .nav { order: 3; width: 100%; margin-left: 0; }
+  .hero { padding: 56px 0 48px; }
+  .hero h1 { font-size: 1.9rem; }
+}

@@ -10,3 +10,4 @@
 - bea9a04 | Google Drive MCP サーバーを OAuth (読み取り専用) で設定し `.devin/mcp_config.local.json` に登録. `.gitignore` にローカル MCP 設定を追加.
 - 7ef7e53 | Drive フォルダの CSV 13 件を "営業リスト" シートへ反映. 会計系を "税理士・会計事務所" に統合し重複解消. 既存 87 行を補完更新、410 行を追加 (計 497 件). 件数集計の式を範囲拡張. OAuth スコープを drive.readonly+spreadsheets へ更新.
 - 69f190d | 営業リストの Web URL 325 件について https 対応可否を実測し "HTTPSか？" 列に YES/NO を記入. 結果 YES 307 件、NO 18 件 (http のみ応答するサイト).
+- 7afe6d7 | シート構成変更 (ヘッダー 1 行目、J 列が結果列) に合わせて再チェックし J 列へ記入. URL 332 件、YES 313 件、NO 19 件.
